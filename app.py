@@ -1,9 +1,6 @@
 # %%
 import os
 import re
-import nltk
-nltk.download('wordnet')
-nltk.download('omw-1.4')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import pandas as pd
